@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16</title>
+</head>
+<body>
+   <div class="wrapper">
+     <header class="header">
+      <div class="header__container">
+         <a href="" class="header__logo">
+         <img src="img/logo.svg" alt="logo"></a>
+         <nav class="header__menu manu">
+            <ul class="menu__list">
+               <li class="menu__item">
+               <a href="" class="menu__link">About Us</a>
+               </li>
+               <li class="menu__item">
+                  <a href="" class="menu__link">Courses</a>
+               </li>
+               <li class="menu__item">
+                  <a href="" class="menu__link">Events</a>
+               </li>
+               <li class="menu__item">
+                  <a href="" class="menu__link">Blog</a>
+               </li>
+               <li class="menu__item">
+                  <a href="" class="menu__link">Contacts</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="header__action action-header">
+            <a href="" class="action-header__button button"><span>Get consultation</span></a>
+            <a href="" class="action-header__auth"><span> Log in / Register</span></a>
+         </div>
+      </div>
+     </header>
+     <main class="page">
+      <section class="page__main main-block">
+         <div class="main-block__container">
+            <div class="main-block__body body-main">
+                  <div class="body-main__image">
+                     <img src="img/illustration.png" alt="image">
+                   </div>
+                   <div class="body-main__content content-form">
+                     <div class="content-form__title">
+                        <p>Any questions?</p>
+                        <h2>Drop us a line</h2>
+                     </div>
+                     <form class="content-form__items" action="#">
+                        <div class="content-form__item item-content">
+                           <div class="item-content__line line-item">
+                              <label class="line-item__label" for="fname">First Name*</label>
+                              <input class="line-item__input" type="text" id="fname" name="fname" required placeholder="Your first name">
+                           </div>
+                           <div class="item-content__line line-item">
+                              <label class="line-item__label" for="lname">Last Name*</label>
+                              <input class="line-item__input" type="text" id="lname" name="lname" required placeholder="Your last name">
+                           </div>
+                           <div class="item-content__line line-item">
+                              <label class="line-item__label" for="mail">Email*</label>
+                              <input class="line-item__input" type="email" id="mail" name="mail" required placeholder="Your working email">
+                           </div>
+                          
+                           <div class="item-content__line line-item">
+                              <label class="line-item__label" for="phone">Phone</label>
+                              <input class="line-item__input" type="tel" id="phone" name="phone" placeholder="Your phone number">
+                           </div>
+                        </div>
+                        <div class="content-form__area">
+                           <label for="message">Message*</label>
+                           <textarea class="content-form__text" id="message" name="message">Your message
+                              </textarea>
+                        </div>
+                        <div class="content-form__checkbox checkbox-form">
+                           <div class="checkbox-form__box">
+                              <input class="checkbox-form__input" type="checkbox" id="agree" name="agree" value="yes">
+                              <label class="checkbox-form__label" for="agree"><span class="checkbox-form__text">I agree to receive communications from Createx Online School</span></label>
+                            </div>
+                           <div class="content-form__button">
+                              <button class="button" type="submit"> <span>Send message</span></button>
+                           </div>
+                        </div>
+                     </form>
+                   </div> 
+            </div>
+            <form class="main-block__items" action="#">
+               <div class="main-block__examples">
+                  <h2 class="main-block__title-radio">Radio buttons</h2>
+                  <label class="main-block__container">One
+                     <input class="main-block__input" type="radio" checked="checked" name="radio">
+                     <span class="checkmark"></span>
+                  </label>
+                  <label class="main-block__container">Two
+                     <input class="main-block__input" type="radio" name="radio">
+                     <span class="checkmark"></span>
+                  </label>
+                  <label class="main-block__container">Three
+                     <input class="main-block__input" type="radio" name="radio">
+                     <span class="checkmark"></span>
+                  </label>
+                  <label class="main-block__container">Four
+                     <input class="main-block__input" type="radio" name="radio">
+                     <span class="checkmark"></span>
+                  </label>
+               </div>
+            </form>
+         </div>
+      </section>   
+      </main>
+      <footer class="footer">
+      </footer>
+   </div>
+</body>
+</html>
